@@ -1,0 +1,49 @@
+body {
+	background-color: #303030;
+	font-family: "Helvetica", "Arial";
+	font-size: 2em;
+	color: white;
+	width: 20em;
+}
+#nav {
+	font-size: 1.1em;
+	position: relative;
+	line-height: 1.3em;
+	left: 8em;
+	top: 1em;
+	height: 4em;
+	width: 10em;
+	z-index: 1;
+	border-left: 1px red;
+}
+#name {
+	font-size: 2em;
+	position: relative;
+	left: 1.7em;
+	top: 2.7em;
+	z-index: 1;
+	width: 8em;
+	color: white;
+}
+#bod {
+	margin-top: 8em;
+	margin-left: 1em;
+	width: 28em;
+	text-align: justify;
+	line-height: 1.2em;
+	font-weight: 100;
+	font-size: .7em;
+}
+#dude {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+	z-index: -50;
+}
+a:link, a:visited {
+	color: #e31d76;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
