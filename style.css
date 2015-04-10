@@ -3,7 +3,7 @@ body {
 	font-family: "Helvetica", "Arial";
 	font-size: 2em;
 	color: white;
-	width: 18em;
+	width: 15em;
 }
 #nav {
 	font-size: 1.1em;
@@ -12,7 +12,7 @@ body {
 	left: 8em;
 	top: 1em;
 	height: 4em;
-	width: 10em;
+	width: 5em;
 	z-index: 1;
 	border-left: 1px red;
 }
@@ -22,7 +22,7 @@ body {
 	left: 1.3em;
 	top: 2.7em;
 	z-index: 1;
-	width: 8em;
+	width: 7.5em;
 	color: white;
 }
 #bod {
