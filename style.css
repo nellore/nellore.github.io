@@ -19,7 +19,7 @@ body {
 #name {
 	font-size: 2em;
 	position: relative;
-	left: 1.7em;
+	left: 1.3em;
 	top: 2.7em;
 	z-index: 1;
 	width: 8em;
@@ -28,7 +28,7 @@ body {
 #bod {
 	margin-top: 8em;
 	margin-left: 1em;
-	width: 28em;
+	width: 23em;
 	text-align: justify;
 	line-height: 1.2em;
 	font-weight: 100;
