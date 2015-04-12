@@ -3,7 +3,7 @@ body {
 	font-family: "Helvetica", "Arial";
 	font-size: 1em;
 	color: white;
-	line-height: 1.5;
+	line-height: 1.2em;
 }
 
 a,a:visited {
@@ -29,7 +29,7 @@ section {
 	line-height: 1.4em;
 	font-weight: 100;
 	font-size: 0.9em;
-	margin-top: 3em;
+	margin-top: 2.5em;
 }
 
 #dude {
@@ -43,8 +43,8 @@ h1 {
 #nav {
 	font-size: 1.1em;
 	position: absolute;
-	line-height: 2em;
-	margin-left: 10em;
+	line-height: 1.9em;
+	padding-left: 10em;
 	margin-top: -18.5em;
 	z-index: 1;
 	letter-spacing: 10px;
