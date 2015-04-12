@@ -1,49 +1,70 @@
 body {
 	background-color: #303030;
 	font-family: "Helvetica", "Arial";
-	font-size: 2em;
+	font-size: 1em;
 	color: white;
+	line-height: 1.5;
 }
-#nav {
-	font-size: 1.1em;
-	position: relative;
-	line-height: 1.3em;
-	left: 8em;
-	top: 1em;
-	height: 4em;
-	width: 10em;
-	z-index: 1;
-	border-left: 1px red;
-}
-#name {
-	font-size: 2em;
-	position: relative;
-	left: 1.7em;
-	top: 2.7em;
-	z-index: 1;
-	width: 8em;
-	color: white;
-}
-#bod {
-	margin-top: 8.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-	width: 28em;
-	text-align: justify;
-	line-height: 1.4em;
-	font-weight: 100;
-	font-size: .7em;
-}
-#dude {
-	position: absolute;
-	left: 1em;
-	top: 1em;
-	z-index: -50;
-}
-a:link, a:visited {
+
+a,a:visited {
 	color: #99ff00;
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: underline;
+}
+
+header {
+	width: 95%;
+	max-width: 50em;
+	padding: 1em 0;
+	margin: 0em auto;
+}
+
+section {
+	width: 95%;
+	max-width: 50em;
+	margin: 0 auto;
+	line-height: 1.4em;
+	font-weight: 100;
+	font-size: 0.9em;
+	margin-top: 3em;
+}
+
+#dude {
+	display: inline;
+}
+
+h1 {
+	padding-bottom: 1.6em;
+}
+
+#nav {
+	font-size: 1.1em;
+	position: absolute;
+	line-height: 2em;
+	left: 10em;
+	top: 1em;
+	z-index: 1;
+	letter-spacing: 10px;
+}
+
+@media only screen and (min-width: 35em) {
+
+	body {
+		font-size: 1.5em;
+	}
+	
+	header,section {
+		width: 80%;
+	}
+	
+	#dude {
+		position: absolute;
+		display: inline;
+		left: 1em;
+		top: 1em;
+		z-index: -50;
+	}
 }
