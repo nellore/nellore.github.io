@@ -33,7 +33,9 @@ section {
 }
 
 #dude {
+	position: absolute;
 	display: inline;
+	z-index: -50;
 }
 
 h1 {
@@ -42,10 +44,7 @@ h1 {
 
 #nav {
 	font-size: 1.1em;
-	position: absolute;
 	line-height: 1.9em;
-	padding-left: 10em;
-	margin-top: -18.5em;
 	z-index: 1;
 	letter-spacing: 10px;
 }
