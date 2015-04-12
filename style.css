@@ -26,7 +26,8 @@ body {
 }
 #bod {
 	margin-top: 8.5em;
-	margin-left: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 	width: 28em;
 	text-align: justify;
 	line-height: 1.4em;
