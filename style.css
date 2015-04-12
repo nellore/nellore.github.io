@@ -29,12 +29,10 @@ section {
 	line-height: 1.4em;
 	font-weight: 100;
 	font-size: 0.9em;
-	margin-top: 0.5em;
 }
 
 #dude {
 	position: absolute;
-	display: inline;
 	z-index: -50;
 }
 
@@ -68,6 +66,10 @@ h1 {
 		padding-top: 0.5em;
 	}
 
+	section {
+		margin-top: 0.5em;
+	}
+
 	h1 {
 		color: #ff8000;
 		padding-bottom: 0.3em;
@@ -75,21 +77,13 @@ h1 {
 	}
 
 	#nav {
-		position: relative;
 		left: 10em;
 		font-size: 1em;
-		line-height: 1em;
-		z-index: 1;
-		width: 4em;
 		line-height: 1.3em;
-		letter-spacing: 10px;
 	}
 	
 	#dude {
-		position: absolute;
-		display: inline;
 		left: 1em;
 		top: 1em;
-		z-index: -50;
 	}
 }
