@@ -33,6 +33,7 @@ section {
 #dude {
 	position: absolute;
 	z-index: -50;
+	opacity: 0.4;
 }
 
 h1 {
