@@ -1,5 +1,5 @@
 body {
-	background-color: #303030;
+	background-color: #141d26;
 	font-family: "Helvetica", "Arial";
 	font-size: 1em;
 	color: white;
@@ -7,10 +7,9 @@ body {
 }
 
 a,a:visited {
-	color: #99ff00;
+	color: #1f9bc5;
 	text-decoration: none;
 }
-
 a:hover {
 	text-decoration: underline;
 }
@@ -71,7 +70,7 @@ h1 {
 	}
 
 	h1 {
-		color: #ff8000;
+		color: #c51f5d;
 		padding-bottom: 0.3em;
 		font-size: 1.1em;
 	}
